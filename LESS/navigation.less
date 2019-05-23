@@ -1,0 +1,39 @@
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 10px; 
+    padding-top: 20px;
+    margin-left: 125px;
+    margin-bottom: 25px;
+
+    h1 {
+      font-size: 3rem;
+      color: @plant;
+      margin-bottom: 25px;
+    }
+    
+    a {
+      margin: 20px;
+      color: black;
+      margin-left: 50px;
+    }
+  }
+
+  @media @phone {
+    .navigation {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;  
+      h1 {
+        font-size: 2.2rem;
+      }
+      a {
+        margin: 10px;
+      }
+
+    }
+
+
+ 
+}
